@@ -13,7 +13,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #acbcca;
+    /* background-color: #acbcca; */
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(230,85,85,1) 50%, rgba(204,145,63,1) 100%);
 }
 
 .clock{
@@ -27,7 +28,7 @@ body{
     
     box-shadow: 45px 45px 45px -15px rgba(0,0,0,0.15),
     inset rgba(255,255,255, 0.75) 15px 15px 10px,
-    -15px -15px  30px rgba(255,255,255,0.75) ;
+    -15px -15px  30px rgba(255, 255, 255, 0.564) ;
 
     display: flex;
     justify-content: center;
